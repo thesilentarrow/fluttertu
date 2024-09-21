@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44858267422",
+    "project_id": "chatapptute-ddb24",
+    "storage_bucket": "chatapptute-ddb24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44858267422:android:330f9a321facf409cc9b0f",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHUkF5VoFpOtx6SwJ7ITiVAC2ds3vaEXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
