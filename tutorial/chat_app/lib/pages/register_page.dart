@@ -69,6 +69,7 @@ class RegisterPage extends StatelessWidget {
               hintText: 'Email',
               obscureText: false,
               controller: _emailController,
+              focusNode: FocusNode(),
               ),
             const SizedBox(height:20),
             //pw textfield
@@ -76,12 +77,14 @@ class RegisterPage extends StatelessWidget {
               hintText: 'Password',
               obscureText: true,
               controller: _passwordController,
+              focusNode: FocusNode(),
               ),
             const SizedBox(height:20),
             MyTextfield(
               hintText: 'Confirm Password',
               obscureText: true,
               controller: _confirmController,
+              focusNode: FocusNode(),
               ),
             const SizedBox(height:20),
             //login button
@@ -95,9 +98,9 @@ class RegisterPage extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Already have an account?",
+                Text("Already have an account? ",
                 style: TextStyle(color: Theme.of(context).colorScheme.primary,
-                fontWeight: FontWeight.bold),
+                ),
                 ),
                 GestureDetector(
                   onTap:onTap,

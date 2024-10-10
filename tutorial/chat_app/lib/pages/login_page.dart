@@ -63,6 +63,7 @@ class LoginPage extends StatelessWidget {
               hintText: 'Email',
               obscureText: false,
               controller: _emailController,
+              focusNode: FocusNode(),
               ),
             const SizedBox(height:20),
             //pw textfield
@@ -70,6 +71,7 @@ class LoginPage extends StatelessWidget {
               hintText: 'Password',
               obscureText: true,
               controller: _passwordController,
+              focusNode: FocusNode(),
               ),
             const SizedBox(height:20),
             //login button
@@ -83,7 +85,7 @@ class LoginPage extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Not a member?",
+                Text("Not a member? ",
                 style: TextStyle(color: Theme.of(context).colorScheme.primary),
                 ),
                 GestureDetector(
